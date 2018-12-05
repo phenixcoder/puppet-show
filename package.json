@@ -1,0 +1,28 @@
+{
+  "name": "puppet-show",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "puppet-show": "cli.js",
+    "pshow": "cli.js"
+  },
+  "scripts": {
+    "test": "cucumber-js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pheonixcoder/puppet-show.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pheonixcoder/puppet-show/issues"
+  },
+  "homepage": "https://github.com/pheonixcoder/puppet-show#readme",
+  "dependencies": {
+    "cucumber": "^5.0.3",
+    "node-notifier": "^5.3.0",
+    "puppeteer": "^1.11.0"
+  }
+}
